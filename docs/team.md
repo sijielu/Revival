@@ -7,7 +7,7 @@ title:  Team
 
 
 ## Sijie Lu
-***UCI Net ID***: sijiel2
+***UCI Net ID***: sijiel2 
 
 ## Lizhi Feng
 ***UCI Net ID***: lizhif1
