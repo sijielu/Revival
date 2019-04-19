@@ -9,4 +9,4 @@ title:  Proposal
 ## **Evaluation Plan**
 
 ## **Appointment with the Instructor**
-9:30am on Monday, April 29, 2019 (DBH 4204)
+9:30am on Monday, April 29 (DBH 4204)
