@@ -2,11 +2,11 @@
 layout: default
 title:  Proposal
 ---
-## **Summary of the Project**
+### **Summary of the Project**
 
-## **AI/ML Algorithms**
+### **AI/ML Algorithms**
 
-## **Evaluation Plan**
+### **Evaluation Plan**
 
-## **Appointment with the Instructor**
+### **Appointment with the Instructor**
 9:30am on Monday, April 29 (DBH 4204)
