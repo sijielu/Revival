@@ -3,7 +3,7 @@ layout: default
 title:  Home
 ---
 
-Source code: https://github.com/sijielu/Revival/
+Github Repository: [https://github.com/sijielu/Revival/]
 
 Reports:
 
