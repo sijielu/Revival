@@ -49,13 +49,15 @@ We use the network architectures described in the original paper. We also follow
   
   After 1 epoch:
   
+  ![test3](https://github.com/sijielu/Revival/raw/master/img/test3_epoch1.png)
   
   After 20 epoches:
   
+  ![test3](https://github.com/sijielu/Revival/raw/master/img/test3_epoch20.png)
   
   After 37 epoches:
   
-  
+  ![test3](https://github.com/sijielu/Revival/raw/master/img/test3_epoch37.png)
   
   Here are other examples generated after 39 epoches:
   
