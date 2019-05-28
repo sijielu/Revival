@@ -34,6 +34,14 @@ $$D_Y: \text{Distinguish real image } y \text{ from fake image } G(x)$$
   We expect that if we convert a image from one domain to another one then convert it back, the reconstructed image should be similar with the original one. The cycle consistency loss is to enforce that $$F(G(x)) \approx x$$ and $$G(F(y)) \approx y$$. The cycle consistency loss is defined using L1 loss:  
   
   $$\mathcal{L}_{\text{cyc}}(G, F) = \mathbb{E}_{x\sim p_{\text{data}}(x)}[\parallel F(G(x))-x \parallel_1] + \mathbb{E}_{y\sim p_{\text{data}}(y)}[\parallel G(F(y))-y \parallel_1]$$
+
+
+#### Network Architectures
+* Generators  
+  
+
+* Discriminators  
+  
   
 ### Evaluation
 
