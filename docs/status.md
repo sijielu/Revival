@@ -47,6 +47,13 @@ We use the network architectures described in the original paper. We also follow
 * Qualitive Evaluation
   The aim of qualitive evaluation is to see if the created pictures is akin to that of the real world objects. First we take the screen shot of grassland in Minecraft as input and see the generated image after several epoches:
   
+  After 1 epoch:
+  
+  
+  After 20 epoches:
+  
+  
+  After 37 epoches:
   
   
   
