@@ -23,7 +23,8 @@ $$D_Y: \text{Distinguish real image } y \text{ from fake image } G(x)$$
 
 
 #### Objective Function
-
+* Adversarial Loss
+  Same as the paper, we use a least-squares loss rather than the negative log likelihood objective.
 
 ### Evaluation
 
