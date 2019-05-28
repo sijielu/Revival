@@ -43,6 +43,12 @@ We use the network architectures described in the original paper. We also follow
 ### Evaluation
 * Quantitative Evaluation  
   Quantitative evaluation for a Generative Adversarial Network (GAN) is hard to achieve. Here we show the plot of each loss function.
+  
+  ![loss1](https://github.com/sijielu/Revival/raw/master/img/loss1.png)
+  
+  ![loss2](https://github.com/sijielu/Revival/raw/master/img/loss2.png)
+  
+  ![loss3](https://github.com/sijielu/Revival/raw/master/img/loss3.png)
 
 * Qualitive Evaluation
   The aim of qualitive evaluation is to see if the created pictures is akin to that of the real world objects. First we take the screen shot of grassland in Minecraft as input and see the generated image after several epoches:
