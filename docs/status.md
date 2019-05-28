@@ -50,7 +50,11 @@ We use the network architectures described in the original paper. We also follow
   
   
   
-  Here are other examples generated after ...epoches:
+  Here are other examples generated after 39 epoches:
+  
+  ![test1](https://github.com/sijielu/Revival/blob/master/img/test1.png)
+  
+  ![test2](https://github.com/sijielu/Revival/blob/master/img/test2.png)
 
 ### Remaining Goals and Challenges
 1. We are not very satistied with the quality of the generated image. And we are looking for further improvement. Since currently we build the model from scratch, we plan to use the implementation provided by the authors to compare with the result. Another reason of the shortage might be the limitation of the model mentioned in the original paper. We will look for another state-of-the-art model to meet our goals.
