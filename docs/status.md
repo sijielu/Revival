@@ -3,6 +3,8 @@ layout: default
 title:  Status
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ez853szyj2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Project Summary
 Our project’s goal is to implement an image-to-image translation, in which a screenshot of the blocks-based world in Minecraft could be converted into an actual photo composed by items and scenes similar to those in the real world. We use CycleGAN, an approach for learning to map an image from the source domain of Minecraft to one from the target domain of actual environments. We would consider the translation to be “successful” if generated pictures are composed of recognizable items and scenes as same as those in input image but with smooth edges and authentic textures. By implementing the translation, Minecraft users are able to enjoy the creating or survival experience in a more realistic scene. It could be applied to other industries as well, for example, blueprint design.
 
