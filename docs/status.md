@@ -36,14 +36,20 @@ $$D_Y: \text{Distinguish real image } y \text{ from fake image } G(x)$$
   $$\mathcal{L}_{\text{cyc}}(G, F) = \mathbb{E}_{x\sim p_{\text{data}}(x)}[\parallel F(G(x))-x \parallel_1] + \mathbb{E}_{y\sim p_{\text{data}}(y)}[\parallel G(F(y))-y \parallel_1]$$
 
 
-#### Network Architectures
-* Generators  
-  
-
-* Discriminators  
-  
+#### Implementation
+We use the network architectures described in the original paper. We also follow some parts of the authors' training procedures to train our model.
   
 ### Evaluation
+* Quantitative Evaluation  
+  Quantitative evaluation for a Generative Adversarial Network (GAN) is hard to achieve. Here we show the plot of each loss function.
+
+* Qualitive Evaluation
+  The aim of qualitive evaluation is to see if the created pictures is akin to that of the real world objects. First we take the screen shot of grassland in Minecraft as input and see the generated image after several epoches:
+  
+  
+  
+  
+  Here are other examples generated after ...epoches:
 
 ### Remaining Goals and Challenges
 
