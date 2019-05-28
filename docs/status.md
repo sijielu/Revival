@@ -52,5 +52,13 @@ We use the network architectures described in the original paper. We also follow
   Here are other examples generated after ...epoches:
 
 ### Remaining Goals and Challenges
+1. We are not very satistied with the quality of the generated image. And we are looking for further improvement. Since currently we build the model from scratch, we plan to use the implementation provided by the authors to compare with the result. Another reason of the shortage might be the limitation of the model mentioned in the original paper. We will look for another state-of-the-art model to meet our goals.
+
+2. We are still trying to generate the real-time transformation if time permits.
 
 ### References
+1. Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros.  [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf)
+
+2. PyTorch 1.1: <https://pytorch.org>
+
+3. Urban and Natural Scene Datasets: <http://cvcl.mit.edu/database.htm>
