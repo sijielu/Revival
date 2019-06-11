@@ -9,13 +9,24 @@ title:  Final Report
 
 ### Approaches
 #### 1. Introduction
-- **Image-to-Image Translatin** 
+- **Image-to-Image Translation** 
 - **Generative Adversarial Networks (GANs)**
 - **Cycle-Consistent Adversarial Networks (CycleGANs)**
 
-#### 2. Method
+#### 2. Formulation
+- **Adversarial Loss**
+- **Cycle Consistency Loss**
+- **Identity Mapping Loss**
+- **Full Objective**
 
-#### 3. Training Details
+#### 3. Network Architectures
+- **Generator Architectures**
+- **Discriminator Architectures**
+
+#### 4. Training Details
+- **Data Collection**
+- **Hyperparameter Tuning**
+
 
 ### Evaluation
 #### 1. Overview
