@@ -52,4 +52,4 @@ title:  Final Report
 ### References
 1. I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville, and Y. Bengio. [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf). In NIPS, 2014.
 
-2. Jun-Yan Zhu, Taesung Park, Phillip Isola, and Alexei A. Efros. [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf), in IEEE International Conference on Computer Vision (ICCV), 2017. 
+2. Jun-Yan Zhu, Taesung Park, Phillip Isola, and Alexei A. Efros. [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf). in ICCV, 2017. 
