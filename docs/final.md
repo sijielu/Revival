@@ -16,8 +16,9 @@ Generative Adversarial Networks (GANs) achieved huge successes in image editing,
 - **Cycle-Consistent Adversarial Networks (CycleGANs)**
 
 #### 2. Formulation
-- **Adversarial Loss**
-For Generator $G$
+- **Adversarial Loss**  
+For the mapping function $$G: X \to Y$$ and its corresponding discriminator $$D_Y$$ , the adversarial loss is defined as  
+$$\mathcal{L}{\text{GAN}}(G, D_Y, X, Y) = \mathbb{E}{y\sim p_{\text{data}}(y)}[\log D_Y(y)] + \mathbb{E}{x\sim p_{\text{data}}(x)}[\log(1-D_Y(G(x)))]$$.
 - **Cycle Consistency Loss**
 - **Identity Mapping Loss**
 - **Full Objective**
