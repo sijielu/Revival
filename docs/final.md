@@ -9,12 +9,13 @@ title:  Final Report
 
 ### Approaches
 #### 1. Introduction
+- **Image-to-Image Translatin** 
+- **Generative Adversarial Networks (GANs)**
+- **Cycle-Consistent Adversarial Networks (CycleGANs)**
 
-#### 2. Related Work
+#### 2. Method
 
-#### 3. Method
-
-#### 4. Training Details
+#### 3. Training Details
 
 ### Evaluation
 #### 1. Overview
