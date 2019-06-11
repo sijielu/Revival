@@ -10,20 +10,22 @@ title:  Final Report
 ### Approaches
 #### 1. Introduction
 - **Image-to-Image Translation**  
-Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain. 
+  Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain. 
 - **Generative Adversarial Networks (GANs)**  
-Generative Adversarial Networks (GANs) achieved huge successes in image editing, image generation, and many other areas. GANs, introduced by Ian Goodfellow and other researchers at the Université de Montréal in 2014, are a type of neural networks based on the idea of adversarial training, where two neural networks, generator and discriminator, contest with each other. 
+  Generative Adversarial Networks (GANs) achieved huge successes in image editing, image generation, and many other areas. GANs, introduced by Ian Goodfellow and other researchers at the Université de Montréal in 2014, are a type of neural networks based on the idea of adversarial training, where two neural networks, generator and discriminator, contest with each other. 
 - **Cycle-Consistent Adversarial Networks (CycleGANs)**
 
 #### 2. Formulation
 - **Adversarial Loss**  
-For the mapping function $$G: X \to Y$$ and its corresponding discriminator $$D_Y$$, the adversarial loss is defined as  
+  For the mapping function $$G: X \to Y$$ and its corresponding discriminator $$D_Y$$, the adversarial loss is defined as  
   
-  $$\mathcal{L}_{\text{GAN}}(G, D_Y, X, Y) = \mathbb{E}_{y\sim p_{\text{data}}(y)}[\log D_Y(y)] + \mathbb{E}_{x\sim p_{\text{data}}(x)}[\log(1-D_Y(G(x)))],$$  
+  $$\mathcal{L}_{\text{GAN}}(G, D_Y, X, Y) = \mathbb{E}_{y\sim p_{\text{data}}(y)}[\log D_Y(y)] + \mathbb{E}_{x\sim p_{\text{data}}(x)}[\log(1-D_Y(G(x)))].$$  
   
-  where ... Similarly, for the mapping function $$F: Y \to X$$ and its corresponding discriminator $$D_X$$, the adversarial loss is defined as  
+  Similarly, for the mapping function $$F: Y \to X$$ and its corresponding discriminator $$D_X$$, the adversarial loss is defined as  
   
   $$\mathcal{L}_{\text{GAN}}(F, D_X, Y, X) = \mathbb{E}_{x\sim p_{\text{data}}(x)}[\log D_X(x)] + \mathbb{E}_{y\sim p_{\text{data}}(y)}[\log(1-D_X(F(y)))].$$  
+  
+  The generative network $$G$$ aims to minimize the adversarial loss, while the discriminative network $$D$$ strives to maximize this objective, i.e. $$\text{min}_G\text{max}_{D_Y} \mathcal{L}_{\text{GAN}}(G, D_Y, X, Y)$$ and $$\text{min}_F\text{max}_{D_X} \mathcal{L}_{\text{GAN}}(F, D_X, Y, X)$$.
   
 - **Cycle Consistency Loss**
 - **Identity Mapping Loss**
