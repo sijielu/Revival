@@ -3,24 +3,24 @@ layout: default
 title:  Final Report
 ---
 
-## Video
+### Video
 
-## Project Summary
+### Project Summary
 
-## Approaches
-### 1. Introduction
+### Approaches
+#### 1. Introduction
 
-### 2. Related Work
+#### 2. Related Work
 
-### 3. Method
+#### 3. Method
 
-### 4. Training Details
+#### 4. Training Details
 
-## Evaluation
-### 1. Overview
+### Evaluation
+#### 1. Overview
 
-### 2. Quantitative Evaluation
+#### 2. Quantitative Evaluation
 
-### 3. Qualitative Evaluation
+#### 3. Qualitative Evaluation
 
-## References
+### References
