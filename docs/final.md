@@ -17,9 +17,8 @@ Generative Adversarial Networks (GANs) achieved huge successes in image editing,
 
 #### 2. Formulation
 - **Adversarial Loss**  
-For the mapping function $$G: X \to Y$$ and its corresponding discriminator $$D_Y$$ , the adversarial loss is defined as  
-  
-  $$\mathcal{L}_{\text{GAN}}(G, D_Y, X, Y) = \mathbb{E}_{y\sim p_{\text{data}}(y)}[\log D_Y(y)] + \mathbb{E}_{x\sim p_{\text{data}}(x)}[\log(1-D_Y(G(x)))].$$  
+For the mapping function $$G: X \to Y$$ and its corresponding discriminator $$D_Y$$, the adversarial loss is defined as  
+$$\mathcal{L}_{\text{GAN}}(G, D_Y, X, Y) = \mathbb{E}_{y\sim p_{\text{data}}(y)}[\log D_Y(y)] + \mathbb{E}_{x\sim p_{\text{data}}(x)}[\log(1-D_Y(G(x)))].$$  
   
 - **Cycle Consistency Loss**
 - **Identity Mapping Loss**
