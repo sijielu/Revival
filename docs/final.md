@@ -30,9 +30,9 @@ title:  Final Report
   Following the orginal paper, the negative log likelihood objective is replaced by a least-squares loss. For the modified adversarial loss $$\mathcal{L}_{\text{GAN}}(G, D, X, Y)$$, the mapping function $$G$$ tries to minimize $$\mathbb{E}_{x\sim p_{\text{data}}(x)}[(D(G(x))-1)^2]$$ during training, while the corresponding discriminator $$D$$ minimizes $$\mathbb{E}_{y\sim p_{\text{data}}(y)}[(D(y)-1)^2] + \mathbb{E}_{x\sim p_{\text{data}}(x)}[(D(G(x)))^2]$$.
   
 - **Cycle Consistency Loss**
-  We expect that if we transform a image from one domain to another one and then convert it back, the reconstructed image should be similar with the original one. Therefore, the two mapping functions $$G$$ and $$F$$ should be cycle-consistent. For every image $$x$$ from the domain $$X$$, the cycle consistency is to enforce that $$x \to G(x) \to F(G(x)) \approx x$$. Similarly, for each image $$y$$ from the domain $$Y$$, the image translation cycle should be able to reconstruct the orginal image, i.e., $$y \to F(y) \to G(F(y)) \approx y$$. The cycle consistency loss is defined using L1 loss in the orginal paper:
+  We expect that if we transform a image from one domain to another one and then convert it back, the reconstructed image should be similar with the original one. Therefore, the two mapping functions $$G$$ and $$F$$ should be cycle-consistent. For every image $$x$$ from the domain $$X$$, the cycle consistency is to enforce that $$x \to G(x) \to F(G(x)) \approx x$$. Similarly, for each image $$y$$ from the domain $$Y$$, the image translation cycle should be able to reconstruct the orginal image, i.e., $$y \to F(y) \to G(F(y)) \approx y$$. The cycle consistency loss is defined using L1 loss in the orginal paper, which is
   
-  $$\mathcal{L}{\text{cyc}}(G, F) = \mathbb{E}{x\sim p_{\text{data}}(x)}[\parallel F(G(x))-x \parallel_1] + \mathbb{E}{y\sim p{\text{data}}(y)}[\parallel G(F(y))-y \parallel_1]$$
+  $$\mathcal{L}{\text{cyc}}(G, F) = \mathbb{E}_{x\sim p_{\text{data}}(x)}[\parallel F(G(x))-x \parallel_1] + \mathbb{E}_{y\sim p{\text{data}}(y)}[\parallel G(F(y))-y \parallel_1].$$
   
 - **Identity Mapping Loss**
 - **Full Objective**
