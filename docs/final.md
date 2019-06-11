@@ -21,7 +21,7 @@ For the mapping function $$G: X \to Y$$ and its corresponding discriminator $$D_
   
   $$\mathcal{L}_{\text{GAN}}(G, D_Y, X, Y) = \mathbb{E}_{y\sim p_{\text{data}}(y)}[\log D_Y(y)] + \mathbb{E}_{x\sim p_{\text{data}}(x)}[\log(1-D_Y(G(x)))],$$  
   
-where ... Similarly, for the mapping function $$F: Y \to X$$ and its corresponding discriminator $$D_X$$, the adversarial loss is defined as  
+  where ... Similarly, for the mapping function $$F: Y \to X$$ and its corresponding discriminator $$D_X$$, the adversarial loss is defined as  
   
   $$\mathcal{L}_{\text{GAN}}(F, D_X, Y, X) = \mathbb{E}_{x\sim p_{\text{data}}(x)}[\log D_X(x)] + \mathbb{E}_{y\sim p_{\text{data}}(y)}[\log(1-D_X(F(y)))].$$  
   
