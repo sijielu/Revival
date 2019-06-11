@@ -17,6 +17,7 @@ Generative Adversarial Networks (GANs) achieved huge successes in image editing,
 
 #### 2. Formulation
 - **Adversarial Loss**
+For Generator $G$
 - **Cycle Consistency Loss**
 - **Identity Mapping Loss**
 - **Full Objective**
