@@ -45,7 +45,7 @@ title:  Final Report
   
   where $$\lambda$$ is the relative weight of the cycle consistency loss. Hence, we are aiming to solve  
   
-  $$G^\*, F^\* = \text{arg}\, \underset{\text{min}}{G, F}\, \underset{\text{max}{D_X, D_Y}}\, \mathcal{L}(G, F, D_X, D_Y).$$
+  $$G^*, F^* = \text{arg}\, \underset{G, F}{\text{min}}\, \underset{D_X, D_Y}{\text{max}}\, \mathcal{L}(G, F, D_X, D_Y).$$
 
 #### 3. Network Architectures
 - **Generator Architectures**
