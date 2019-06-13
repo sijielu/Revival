@@ -49,12 +49,14 @@ title:  Final Report
 - **Generator Architectures**  
   There are three sections contained in each CycleGAN generator: an encoder, a transformer, and a decoder. The input image is transported into the encoder which is composed of three convolution layers. The result is then passed to transformer, which is a series of six residual blocks. After that it is expanded again by the decoder. As we can see from the picture, the representation size shrinks in the encoder phase, stay the same in the transformer phase and then expends in the decoder phase. The representation size is listed below each layer in terms of the input image size, $$k$$. Every layer is listed the number of filters, the stride and the size of filters. Each layer is followed by an instance normalization and ReLU activation.  
   
-  ![generator](https://github.com/sijielu/Revival/raw/master/img/generator.png)
+  ![generator](https://github.com/sijielu/Revival/raw/master/img/generator.png)  
+  _Source: ["CycleGAN: Learning to Translate Images (Without Paired Training Data)"](https://towardsdatascience.com/cyclegan-learning-to-translate-images-without-paired-training-data-5b4e93862c8d)_
   
 - **Discriminator Architectures**  
   The discriminators are PatchGANs, a fully convolutional neural network that focus on the “patch” of the input image and outputs how likely the patch being “real”. It’s much more computationally efficient than looking at the entire input image.And it’s also more effective since it allows the discriminator to focus on more surface-level features which is often being changed in an image translation task. As we can see from the picture below, the $$k$$ means the input image size and one each layer is listed the number of filters, the stride and the size of filters.  
   
-  ![discriminator](https://github.com/sijielu/Revival/raw/master/img/discriminator.png)
+  ![discriminator](https://github.com/sijielu/Revival/raw/master/img/discriminator.png)  
+  _Source: ["CycleGAN: Learning to Translate Images (Without Paired Training Data)"](https://towardsdatascience.com/cyclegan-learning-to-translate-images-without-paired-training-data-5b4e93862c8d)_
 
 #### 4. Training Details
 - **Data Collection**  
