@@ -77,4 +77,4 @@ title:  Final Report
 
 2. J.-Y. Zhu, T. Park, P. Isola, and A. A. Efros. [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf). In ICCV, 2017. 
 
-3. S. Wolf. [CycleGAN: Learning to Translate Images (Without Paired Training Data)](https://towardsdatascience.com/cyclegan-learning-to-translate-images-without-paired-training-data-5b4e93862c8d)
+3. S. Wolf. [CycleGAN: Learning to Translate Images (Without Paired Training Data)](https://towardsdatascience.com/cyclegan-learning-to-translate-images-without-paired-training-data-5b4e93862c8d).
