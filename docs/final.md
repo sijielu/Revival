@@ -47,12 +47,12 @@ title:  Final Report
 
 #### 3. Network Architectures
 - **Generator Architectures**  
-  There are three sections contained in each CycleGAN generator: an encoder, a transformer, and a decoder. The input image is transported into the encoder which is composed of three convolution layers. The result is then passed to transformer, which is a series of six residual blocks. After that it is expanded again by the decoder.
+  There are three sections contained in each CycleGAN generator: an encoder, a transformer, and a decoder. The input image is transported into the encoder which is composed of three convolution layers. The result is then passed to transformer, which is a series of six residual blocks. After that it is expanded again by the decoder.  
   
   ![generator](https://github.com/sijielu/Revival/raw/master/img/generator.png)
   
 - **Discriminator Architectures**  
-  The discriminators are PatchGANs, a fully convolutional neural network that focus on the “patch” of the input image and outputs how likely the patch being “real”. It’s much more computationally efficient than looking at the entire input image.And it’s also more effective since it allows the discriminator to focus on more surface-level features which is often being changed in an image translation task.
+  The discriminators are PatchGANs, a fully convolutional neural network that focus on the “patch” of the input image and outputs how likely the patch being “real”. It’s much more computationally efficient than looking at the entire input image.And it’s also more effective since it allows the discriminator to focus on more surface-level features which is often being changed in an image translation task.  
   
   ![discriminator](https://github.com/sijielu/Revival/raw/master/img/discriminator.png)
 
