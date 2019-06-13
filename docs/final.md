@@ -51,7 +51,7 @@ title:  Final Report
 
 #### 4. Training Details
 - **Data Collection**  
-  For Minecraft data collection, we have an angent walk randomly and look around in the Minecraft world. We capture an image every 2 seconds. The real-world images are from the dataset ***Urban and Natural Scene Categories*** from Computational Visual Cognition Laboratory at Massachusetts Institute of Technology (MIT). The images were scaled to 256 × 256 pixels. The training set size of each class is 978 (Minecraft) and 998 (Real-world images).
+  For Minecraft data collection, we have an angent walk randomly and look around in the Minecraft world. We capture an image every second. The real-world images are photos downloaded from Flickr using Flickr API. The images were scaled to 128 × 128 pixels. The training set size of each class is 3295 (Minecraft) and 3116 (Real-world images). During training, the dataloader have the data reshuffled at every epoch.
   
 - **Hyperparameter Tuning**
 
