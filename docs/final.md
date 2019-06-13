@@ -18,6 +18,8 @@ title:  Final Report
   
   ![cyclegan](https://github.com/sijielu/Revival/raw/master/img/cyclegan.png)  
   
+  From the figure, __(a)__ CycleGANs have two mapping functions $$G: X \to Y$$ and $$F: Y \to X$$, and two corresponding discriminators $$D_Y$$ and $$D_X$$. The discriminator $$D_Y$$ encourages $$G$$ to translate $$X$$ into outputs indistinguishable from domain $$Y$$, and vice versa for $$D_X$$ and $$F$$. In addition, there are two cycle-consistence losses that enforce the consistency between original and reconstructed images: __(b)__ forward cycle-consistency loss: $$x \to G(x) \to F(G(x)) \approx x$$, and __(c)__ backward cycle-consistency loss: $$y \to F(y) \to G(F(y)) \approx y$$.  
+  
 #### 2. Formulation
 - **Adversarial Loss**  
   For the mapping function $$G: X \to Y$$ and its corresponding discriminator $$D_Y$$, the adversarial loss is defined as  
