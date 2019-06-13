@@ -35,8 +35,6 @@ title:  Final Report
   $$\mathcal{L}{\text{cyc}}(G, F) = \mathbb{E}_{x\sim p_{\text{data}}(x)}[\parallel F(G(x))-x \parallel_1] + \mathbb{E}_{y\sim p{\text{data}}(y)}[\parallel G(F(y))-y \parallel_1].$$
   
   In preliminary experiments, we also tried to define the cycle consistency loss using L2 loss. However, we did not see any improvement.
-  
-- **Identity Mapping Loss**  
 
 - **Full Objective**  
   Combining the loss functons defined above, we obtain the full objective for our model:
@@ -52,7 +50,9 @@ title:  Final Report
 - **Discriminator Architectures**
 
 #### 4. Training Details
-- **Data Collection**
+- **Data Collection**  
+  For Minecraft data collection, we have an angent walk randomly and look around in the Minecraft world. We capture an image every 2 seconds. The real-world images are from the dataset ***Urban and Natural Scene Categories*** from Computational Visual Cognition Laboratory at Massachusetts Institute of Technology (MIT). The images were scaled to 256 × 256 pixels. The training set size of each class is 978 (Minecraft) and 998 (Real-world images).
+  
 - **Hyperparameter Tuning**
 
 
