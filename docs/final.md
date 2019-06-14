@@ -101,6 +101,10 @@ The qualitative evaluation is to see if the created pictures is akin to that of 
 Based on the results shown above, we could see that through the training process, the generated image become more natural and real. The desert and clouds in Minecraft are transparently transformed to those in real world. We also do the experiment on transformation from real-world photo to Minecraft landscape. The comparison is shown below:  
 - **Photo $$\to$$ Minecraft:**  
   ![RtoM](https://github.com/sijielu/Revival/raw/master/img/RtoM.jpg)  
+
+Here is an example of real-time transformation:
+- **Minecraft $$\to$$ Real World:**  
+  ![real_time](https://github.com/sijielu/Revival/raw/master/img/real_time.gif)  
   
 Although our method can achieve compelling results in many cases, the results are far from uniformly positive. A failure case is shown below:  
 - **failure case:**  
