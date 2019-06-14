@@ -98,7 +98,7 @@ The qualitative evaluation is to see if the created pictures is akin to that of 
 - **after 100 epoches:**  
   ![sample_e100](https://github.com/sijielu/Revival/raw/master/img/sample_e100.jpg)  
    
-Based on the results shown above, we could see that through the training process, the generated image become more natural and real. The forest and river in Minecraft are transparently transformed to those in real world. We also do the experiment on transformation from real-world photo to Minecraft landscape. The comparison is shown below:  
+Based on the results shown above, we could see that through the training process, the generated image become more natural and real. The desert and clouds in Minecraft are transparently transformed to those in real world. We also do the experiment on transformation from real-world photo to Minecraft landscape. The comparison is shown below:  
 - **Photo $$\to$$ Minecraft:**  
   ![RtoM](https://github.com/sijielu/Revival/raw/master/img/RtoM.jpg)  
   
