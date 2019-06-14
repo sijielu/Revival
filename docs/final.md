@@ -95,7 +95,11 @@ The qualitative evaluation is to see if the created pictures is akin to that of 
 Based on the results shown above, we could see that through the training process, the generated image become more natural and real. The forest and river in Minecraft are transparently transformed to those in real world. We also do the experiment on transformation from real-world photo to Minecraft landscape. The comparison is shown below:  
 - **Photo $$\to$$ Minecraft:**  
   ![RtoM](https://github.com/sijielu/Revival/raw/master/img/RtoM.jpg)  
-
+  
+Although our method can achieve compelling results in many cases, the results are far from uniformly positive. A failure case is shown below:  
+- **failure case:**  
+  ![failure](https://github.com/sijielu/Revival/raw/master/img/failure.jpg)  
+  
 ### References
 1. I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville, and Y. Bengio. [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf). In NIPS, 2014.
 
