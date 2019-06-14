@@ -6,8 +6,9 @@ title:  Final Report
 ### Video
 
 ### Project Summary
-- **Image-to-Image Translation**  
-  Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain. 
+The image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain. Our project’s goal is to implement a cross-domain image transform, in which the senses of the blocks-based world in Minecraft could be converted into an actual photo composed by items and scenes similar to those in the real world. In particular, we used unpaired images captured in the Minecraft world and photos of actual environments to train the networks. Our model is supposed to capturing special characteristics of one image collection and figuring out how these characteristics could be translated into the other image collection. Therefore, we expected to achieve that the generated pictures from Minecraft are composed of recognizable items and scenes as same as those in input image but with smooth edges and authentic textures (and vice versa).  
+  
+By implementing the translation, Minecraft users are able to enjoy the experience in a more realistic scene. Meanwhile, the possible applications of Minecraft have been discussed extensively, especially in the fields of computer-aided design and education. Well-constructed networks can be applied to these fields as well to convert models from Minecraft into photos of the actual objects even without paired training data.
   
 ### Approaches
 #### 1. Introduction
@@ -111,3 +112,5 @@ Although our method can achieve compelling results in many cases, the results ar
 2. J.-Y. Zhu, T. Park, P. Isola, and A. A. Efros. [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf). In ICCV, 2017. 
 
 3. S. Wolf. [CycleGAN: Learning to Translate Images (Without Paired Training Data)](https://towardsdatascience.com/cyclegan-learning-to-translate-images-without-paired-training-data-5b4e93862c8d).
+
+4. PyTorch. https://pytorch.org.
