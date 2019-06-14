@@ -44,7 +44,7 @@ title:  Final Report
 - **Full Objective**  
   Combining the loss functons defined above, we obtain the full objective for our model:
   
-  $$\mathcal{L}(G, F, D_X, D_Y) = \mathcal{L}_{\text{GAN}}(G, D_Y, X, Y) + \mathcal{L}_{\text{GAN}}(G, D, X, Y) + \lambda\mathcal{L}{\text{cyc}}(G, F),$$
+  $$\mathcal{L}(G, F, D_X, D_Y) = \mathcal{L}_{\text{GAN}}(G, D_Y, X, Y) + \mathcal{L}_{\text{GAN}}(F, D_X, Y, X) + \lambda\mathcal{L}{\text{cyc}}(G, F),$$
   
   where $$\lambda$$ is the relative weight of the cycle consistency loss. Hence, we are aiming to solve  
   
@@ -74,11 +74,14 @@ title:  Final Report
   For our experiments, we set the weight of the cycle consistency loss $$\lambda = 10$$. Same as the original paper, we use the Adam solver with a batch size of 1. The learning rate is set to 0.0002. The coefficients used for computing running averages of gradient and its square are set to (0.5, 0.999).
 
 ### Evaluation
-#### 1. Overview
+#### 1. Quantitative Evaluation
+We present the plots of loss functions to illustrate the quantitative evaluation on our model. First, the plot of the adversarial losses $$\mathcal{L}_{\text{GAN}}(G, D_Y, X, Y)$$ and $$\mathcal{L}_{\text{GAN}}(F, D_X, Y, X)$$:  
+![adv_loss](https://github.com/sijielu/Revival/raw/master/img/adv_loss.png)  
 
-#### 2. Quantitative Evaluation
+In addition, the visualization of cycle consistency losses is shown below:  
+![cycle_loss](https://github.com/sijielu/Revival/raw/master/img/cycle_loss.png)  
 
-#### 3. Qualitative Evaluation
+#### 2. Qualitative Evaluation
 The qualitative evaluation is to see if the created pictures is akin to that of the real world objects. Here, we present comparisons between original image (Minecraft image) and generated image (real-world image):  
 - **after 1 epoch:**  
   ![sample_e1](https://github.com/sijielu/Revival/raw/master/img/sample_e1.jpg)  
