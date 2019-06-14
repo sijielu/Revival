@@ -118,4 +118,4 @@ Although our method can achieve compelling results in many cases, the results ar
 
 3. S. Wolf. [CycleGAN: Learning to Translate Images (Without Paired Training Data)](https://towardsdatascience.com/cyclegan-learning-to-translate-images-without-paired-training-data-5b4e93862c8d).
 
-4. PyTorch. https://pytorch.org
+4. PyTorch. <https://pytorch.org>.
