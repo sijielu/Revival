@@ -92,7 +92,7 @@ The qualitative evaluation is to see if the created pictures is akin to that of 
 - **after 100 epoches:**  
   ![sample_e100](https://github.com/sijielu/Revival/raw/master/img/sample_e100.jpg)  
    
-Based on the results shown above, we could see that through the training process, the generated image become more natural and real. The clouds and desert in Minecraft are transparently transformed to those in real world. 
+Based on the results shown above, we could see that through the training process, the generated image become more natural and real. The forest and river in Minecraft are transparently transformed to those in real world. 
 
 ### References
 1. I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville, and Y. Bengio. [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf). In NIPS, 2014.
