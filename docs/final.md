@@ -79,6 +79,24 @@ title:  Final Report
 #### 2. Quantitative Evaluation
 
 #### 3. Qualitative Evaluation
+The qualitative evaluation is to see if the created pictures is akin to that of the real world objects. Here, we present comparisons between original image (Minecraft image) and generated image (real-world image):  
+- **after 1 epoch:**  
+  ![sample_e1](https://github.com/sijielu/Revival/raw/master/img/sample_e1.jpg)  
+  
+- **after 5 epoches:**  
+  ![sample_e5](https://github.com/sijielu/Revival/raw/master/img/sample_e5.jpg)  
+  
+- **after 10 epoches:**  
+  ![sample_e10](https://github.com/sijielu/Revival/raw/master/img/sample_e10.jpg)  
+  
+- **after 25 epoches:**  
+  ![sample_e25](https://github.com/sijielu/Revival/raw/master/img/sample_e25.jpg)  
+  
+- **after 50 epoches:**  
+  ![sample_e50](https://github.com/sijielu/Revival/raw/master/img/sample_e50.jpg)  
+  
+- **after 100 epoches:**  
+  ![sample_e100](https://github.com/sijielu/Revival/raw/master/img/sample_e100.jpg)  
 
 ### References
 1. I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville, and Y. Bengio. [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf). In NIPS, 2014.
