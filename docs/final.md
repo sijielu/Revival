@@ -64,6 +64,9 @@ title:  Final Report
   _Source: ["CycleGAN: Learning to Translate Images (Without Paired Training Data)"](https://towardsdatascience.com/cyclegan-learning-to-translate-images-without-paired-training-data-5b4e93862c8d)_
 
 #### 4. Training Details
+- **Implementation**  
+  We build the model from scratch using PyTorch, a machine learning library for the programming language Python. The implementation can be found [here](https://github.com/sijielu/Revival).
+  
 - **Data Collection**  
   For Minecraft data collection, we have an angent walk randomly and look around in the Minecraft world. We capture an image every second. The real-world images are photos downloaded from Flickr using Flickr API. The images were scaled to 128 × 128 pixels. The training set size of each class is 3295 (Minecraft) and 3116 (Real-world images). During training, the dataloader have the data reshuffled at every epoch.
   
