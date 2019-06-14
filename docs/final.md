@@ -75,11 +75,13 @@ title:  Final Report
 
 ### Evaluation
 #### 1. Quantitative Evaluation
-We present the plots of loss functions to illustrate the quantitative evaluation on our model. First, the plot of the adversarial losses $$\mathcal{L}_{\text{GAN}}(G, D_Y, X, Y)$$ and $$\mathcal{L}_{\text{GAN}}(F, D_X, Y, X)$$:  
+We are not able to utilize some common metrics such as pixel accuracy or Intersection over Union (IoU) to conduct qualitative evaluations due to the lack of ground truth. On the other hand, the perceptual study we mentioned in the proposal is time consuming and difficut to receive the accurate feedbacks. Therefore, we present the plots of loss functions to illustrate the quantitative evaluation on our model. First, the plot of the adversarial losses $$\mathcal{L}_{\text{GAN}}(G, D_Y, X, Y)$$ and $$\mathcal{L}_{\text{GAN}}(F, D_X, Y, X)$$:  
 ![adv_loss](https://github.com/sijielu/Revival/raw/master/img/adv_loss.png)  
 
 In addition, the visualization of cycle consistency losses is shown below:  
 ![cycle_loss](https://github.com/sijielu/Revival/raw/master/img/cycle_loss.png)  
+
+It is difficult for us to interpret of loss functions for our model, which shares the similarity with other GANs. The convergence of these objectives is unclear.
 
 #### 2. Qualitative Evaluation
 The qualitative evaluation is to see if the created pictures is akin to that of the real world objects. Here, we present comparisons between original image (Minecraft image) and generated image (real-world image):  
