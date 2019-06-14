@@ -69,7 +69,7 @@ By implementing the translation, Minecraft users are able to enjoy the experienc
   We build the model from scratch using PyTorch, a machine learning library for the programming language Python. The implementation can be found [here](https://github.com/sijielu/Revival).
   
 - **Data Collection**  
-  For Minecraft data collection, we have an angent walk randomly and look around in the Minecraft world. We capture an image every second. The real-world images are photos downloaded from Flickr using Flickr API. The images were scaled to 128 × 128 pixels. The training set size of each class is 3295 (Minecraft) and 3116 (Real-world images). During training, the dataloader have the data reshuffled at every epoch.
+  For Minecraft data collection, we have an agent walk randomly and look around in the Minecraft world. We capture an image every second. The real-world images are photos downloaded from Flickr using Flickr API. The images were scaled to 128 × 128 pixels. The training set size of each class is 3295 (Minecraft) and 3116 (Real-world images). During training, the dataloader have the data reshuffled at every epoch.
   
 - **Hyperparameter Tuning**  
   For our experiments, we set the weight of the cycle consistency loss $$\lambda = 10$$. Same as the original paper, we use the Adam solver with a batch size of 1. The learning rate is set to 0.0002. The coefficients used for computing running averages of gradient and its square are set to (0.5, 0.999).
