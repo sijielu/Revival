@@ -3,7 +3,8 @@ layout: default
 title:  Final Report
 ---
 
-### Video
+### Video  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zn3SfC7HQ1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Project Summary
 The image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain. Our project’s goal is to implement a cross-domain image transform, in which the senses of the blocks-based world in Minecraft could be converted into an actual photo composed by items and scenes similar to those in the real world. In particular, we used unpaired images captured in the Minecraft world and photos of actual environments to train the networks. Our model is supposed to capturing special characteristics of one image collection and figuring out how these characteristics could be translated into the other image collection. Therefore, we expected to achieve that the generated pictures from Minecraft are composed of recognizable items and scenes as same as those in input image but with smooth edges and authentic textures (and vice versa).  
