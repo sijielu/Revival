@@ -75,7 +75,12 @@ By implementing the translation, Minecraft users are able to enjoy the experienc
   For our experiments, we set the weight of the cycle consistency loss $$\lambda = 10$$. Same as the original paper, we use the Adam solver with a batch size of 1. The learning rate is set to 0.0002. The coefficients used for computing running averages of gradient and its square are set to (0.5, 0.999).
 
 ### Evaluation
-#### 1. Quantitative Evaluation
+#### 1. Overview
+Here is an example of real-time transformation:
+- **Minecraft $$\to$$ Real World:**  
+  ![real_time](https://github.com/sijielu/Revival/raw/master/img/real_time.gif)  
+
+#### 2. Quantitative Evaluation
 We are not able to utilize some common metrics such as pixel accuracy or Intersection over Union (IoU) to conduct qualitative evaluations due to the lack of ground truth. On the other hand, the perceptual study we mentioned in the proposal is time consuming and difficut to receive the accurate feedbacks. Therefore, we present the plots of loss functions to illustrate the quantitative evaluation on our model. First, the plot of the adversarial losses $$\mathcal{L}_{\text{GAN}}(G, D_Y, X, Y)$$ and $$\mathcal{L}_{\text{GAN}}(F, D_X, Y, X)$$:  
 ![adv_loss](https://github.com/sijielu/Revival/raw/master/img/adv_loss.png)  
 
@@ -84,7 +89,7 @@ In addition, the visualization of cycle consistency losses is shown below:
 
 It is difficult for us to interpret of loss functions for our model, which shares the similarity with other GANs. The convergence of these objectives is unclear.
 
-#### 2. Qualitative Evaluation
+#### 3. Qualitative Evaluation
 The qualitative evaluation is to see if the created pictures is akin to that of the real world objects. Here, we present comparisons between original image (Minecraft image) and generated image (real-world image):  
 - **after 1 epoch:**  
   ![sample_e1](https://github.com/sijielu/Revival/raw/master/img/sample_e1.jpg)  
@@ -101,10 +106,6 @@ The qualitative evaluation is to see if the created pictures is akin to that of 
 Based on the results shown above, we could see that through the training process, the generated image become more natural and real. The desert and clouds in Minecraft are transparently transformed to those in real world. We also do the experiment on transformation from real-world photo to Minecraft landscape. The comparison is shown below:  
 - **Photo $$\to$$ Minecraft:**  
   ![RtoM](https://github.com/sijielu/Revival/raw/master/img/RtoM.jpg)  
-
-Here is an example of real-time transformation:
-- **Minecraft $$\to$$ Real World:**  
-  ![real_time](https://github.com/sijielu/Revival/raw/master/img/real_time.gif)  
   
 Although our method can achieve compelling results in many cases, the results are far from uniformly positive. A failure case is shown below:  
 - **failure case:**  
